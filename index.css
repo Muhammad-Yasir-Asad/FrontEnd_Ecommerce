@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./fonts/Fontspring-DEMO-integralcf-bold.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+.uppercon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 38px;
+}
+.uppercon h6{
+    align-items: center;
+    justify-content: center;
+}
+.navbar-section{
+
+}
+.logo{
+    height: 22px;
+    width: 160px;
+}
+.navitems{
+    margin-left: 40px;
+}
+.navbar{
+    margin-top: 27px;
+    margin-bottom: 21px;
+    
+}
+.nav-form{
+    height: 48px;
+    width: 577px;
+    border-radius: 100px;
+    display: flex;
+    padding: 16px 12px;
+    background-color: #cdcccc;
+    margin: 0 auto;
+    gap: 12px;
+    align-items: center;
+    margin-left: 40px;
+}
+.nav-form button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+}
+.nav-form input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.nav-img{
+    display: flex;
+    gap: 14px;
+}
+.nav-img img{
+    height: 24px;
+    width: 24px;
+    outline: none;
+    border: none;
+}
+.hero{
+    background-image: url(./img/Rectangle\ 2.png);
+    background-color: #F2F0F1;
+}
+.hero-heading{
+    margin-top: 103px;
+    font-family: 'CustomFont', sans-serif;
+    font-size: 64px;
+    line-height: 64px;
+}
+.hero-para{
+    margin: 32px 0;
+}
+.hero-btn{
+    width: 210PX;
+    height: 52PX;
+    padding: 16px 52px;
+}
+.hero-sec{
+    display: flex;
+    margin-top: 48px;
+    gap: 64px;
+}
+.hero-sec h6{
+    font-size: 40px;
+    font-weight: bold;
+}
+.hero-sec p{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.main-img{
+    width: 1440px;
+    height: 663px;
+}
+.third-sec{
+    display: flex;
+    background-color: black;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.third-sec img{
+    height: 33.35;
+    width: 206.79;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.new-arrival{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.new-arrival h1{
+    margin-top: 72px;
+    font-family: 'CustomFont', sans-serif;
+}
+.new-arrival-one{
+    display: flex;
+    margin-top: 55px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center ;
+}
+.new-arrival-one p{
+    font-weight: bold;
+}
+.new-arrival-one h5{
+    font-weight: bolder;
+}
+.new-arrival button{
+    width: 218px;
+    height: 52px;
+    padding: 16px 52px;
+    border: 1px solid #cdcccc;
+    border-radius: 62px;
+    background-color: white;
+    margin-top: 36px;
+}
+.section-one-hr{
+    margin-top: 64px;
+    width: 1240px;
+}
+.dress-style{
+    background-color: #cdcccc;
+    margin: 80px auto;
+    border-radius: 40px;
+    display: flex;
+    height: 866px;
+    align-items: center;
+    width: 1239PX;
+    flex-direction: column;
+}
+.dress-style h1{
+    margin-top: 70px;
+    font-family: 'CustomFont', sans-serif;
+    font-size: 48px;
+    margin-bottom: 140px;
+}
+.dress-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 289px;
+    margin-top: 64px; 
+    gap: 20px;   
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+}
+.lower{
+    display: flex;
+    flex-direction: row;
+}
+
+.upper1{
+   margin-right: 20px; 
+   
+}
+.lower1{
+    margin-right: 20px;
+}
+
+.cus h1{
+    font-family: 'CustomFont', sans-serif;
+    margin-left: 175px;
+}
+.carousel-item {
+   padding: 20px;
+}
+.stars {
+    color: gold;
+}
+.carousel-item {
+    padding: 20px;
+  }
+  .stars {
+    color: gold;
+  }
+  .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure all items are in a single row */
+  }
+  .carousel-control-prev, .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5); /* Optional: change the background color */
+    border-radius: 50%; /* Optional: round buttons */
+  }
+  .carousel-control-prev {
+    left: -40px; /* Position at the left edge */
+  }
+  .carousel-control-next {
+    right: -40px; /* Position at the right edge */
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-size: 100%, 100%;
+  }
+
+  .lower-con{
+    width: 1240px;
+    border-radius: 20px;
+    padding: 36px 64px;
+    background-color: black;
+    display: flex;
+   align-items: center;
+   gap: auto;
+   margin-left: 178px;
+   position: absolute;
+   margin-top: 80px;
+    
+  }
+  .section-sec{
+    margin-left: 212px;
+  }
+  .lower-con form{
+    background-color: white;
+    display: flex;
+    width: 349px;
+    border-radius: 62px;
+    gap: 12px;
+    padding: 12px 16px;
+   
+  }
+  .lower-con form input{
+   
+    outline: none;
+    border: none;
+  }
+  .lower-con button{
+    background-color: white;
+    width: 349px;
+    border-radius: 62px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    margin-top: 14px;
+  }
+  .lower-con h1{
+    color: white;
+    font-family: 'CustomFont', sans-serif;
+    font-weight: 40px;
+    line-height: 45px;
+    width: 551px;
+    height: 94px;
+  }
+  footer{
+    background-color: #cdcccc;
+    position: relative;
+    z-index: -1;
+    height: 500px;
+    margin-top: 170px;
+  }
+  .foot{
+    display: flex;
+    padding-top: 140px;
+    gap: 113.5px;
+  }
+  footer li{
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .foot1{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 248px;
+    gap: 35px;
+    height: 177px;
+  }
+  .foot-img{
+    height: 23px;
+    width: 167px;
+  }
+  .foot1 p{
+   
+
+  }
+  .foot11{
+    display: flex;
+    gap: 12px;
+  }
+  .foot h5{
+    font-size: 16px;
+    font-weight: 16px;
+
+  }
+  .foot ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
